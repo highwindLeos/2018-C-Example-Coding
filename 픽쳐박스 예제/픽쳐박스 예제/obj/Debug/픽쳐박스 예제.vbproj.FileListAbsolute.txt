@@ -1,0 +1,11 @@
+C:\Users\Leos\Desktop\C++\픽쳐박스 예제\픽쳐박스 예제\bin\Debug\픽쳐박스 예제.exe.config
+C:\Users\Leos\Desktop\C++\픽쳐박스 예제\픽쳐박스 예제\bin\Debug\픽쳐박스 예제.exe
+C:\Users\Leos\Desktop\C++\픽쳐박스 예제\픽쳐박스 예제\bin\Debug\픽쳐박스 예제.pdb
+C:\Users\Leos\Desktop\C++\픽쳐박스 예제\픽쳐박스 예제\bin\Debug\픽쳐박스 예제.xml
+C:\Users\Leos\Desktop\C++\픽쳐박스 예제\픽쳐박스 예제\obj\Debug\픽쳐박스 예제.vbprojResolveAssemblyReference.cache
+C:\Users\Leos\Desktop\C++\픽쳐박스 예제\픽쳐박스 예제\obj\Debug\픽쳐박스_예제.Form1.resources
+C:\Users\Leos\Desktop\C++\픽쳐박스 예제\픽쳐박스 예제\obj\Debug\픽쳐박스_예제.Resources.resources
+C:\Users\Leos\Desktop\C++\픽쳐박스 예제\픽쳐박스 예제\obj\Debug\픽쳐박스 예제.vbproj.GenerateResource.Cache
+C:\Users\Leos\Desktop\C++\픽쳐박스 예제\픽쳐박스 예제\obj\Debug\픽쳐박스 예제.exe
+C:\Users\Leos\Desktop\C++\픽쳐박스 예제\픽쳐박스 예제\obj\Debug\픽쳐박스 예제.xml
+C:\Users\Leos\Desktop\C++\픽쳐박스 예제\픽쳐박스 예제\obj\Debug\픽쳐박스 예제.pdb
