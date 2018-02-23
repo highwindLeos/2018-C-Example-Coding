@@ -1,2 +1,6 @@
 ﻿  Hellow.c
-  ConsoleApplication0222.vcxproj -> C:\Users\Leos\Desktop\C++\2018-C-Example-Coding\ConsoleApplication0222\Debug\ConsoleApplication0222.exe
+c:\users\leodays\desktop\2018_c\2018-c-example-coding\consoleapplication0222\consoleapplication0222\hellow.c(6): warning C4566: 유니버설 문자 이름 '\u256D'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+c:\users\leodays\desktop\2018_c\2018-c-example-coding\consoleapplication0222\consoleapplication0222\hellow.c(6): warning C4566: 유니버설 문자 이름 '\u256E'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+c:\users\leodays\desktop\2018_c\2018-c-example-coding\consoleapplication0222\consoleapplication0222\hellow.c(9): warning C4566: 유니버설 문자 이름 '\u2570'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+c:\users\leodays\desktop\2018_c\2018-c-example-coding\consoleapplication0222\consoleapplication0222\hellow.c(9): warning C4566: 유니버설 문자 이름 '\u256F'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+  ConsoleApplication0222.vcxproj -> C:\Users\Leodays\Desktop\2018_C\2018-C-Example-Coding\ConsoleApplication0222\Debug\ConsoleApplication0222.exe
