@@ -1,0 +1,10 @@
+C:\Users\Leodays\Desktop\Dev\메세지 박스 예제\메세지 박스 예제\obj\Debug\메세지 박스 예제.csprojResolveAssemblyReference.cache
+C:\Users\Leodays\Desktop\Dev\메세지 박스 예제\메세지 박스 예제\obj\Debug\메세지_박스_예제.Form1.resources
+C:\Users\Leodays\Desktop\Dev\메세지 박스 예제\메세지 박스 예제\obj\Debug\메세지_박스_예제.Properties.Resources.resources
+C:\Users\Leodays\Desktop\Dev\메세지 박스 예제\메세지 박스 예제\obj\Debug\메세지 박스 예제.csproj.GenerateResource.Cache
+C:\Users\Leodays\Desktop\Dev\메세지 박스 예제\메세지 박스 예제\obj\Debug\메세지 박스 예제.csproj.CoreCompileInputs.cache
+C:\Users\Leodays\Desktop\Dev\메세지 박스 예제\메세지 박스 예제\bin\Debug\Portfolio Program Publising - Leo.exe.config
+C:\Users\Leodays\Desktop\Dev\메세지 박스 예제\메세지 박스 예제\bin\Debug\Portfolio Program Publising - Leo.exe
+C:\Users\Leodays\Desktop\Dev\메세지 박스 예제\메세지 박스 예제\bin\Debug\Portfolio Program Publising - Leo.pdb
+C:\Users\Leodays\Desktop\Dev\메세지 박스 예제\메세지 박스 예제\obj\Debug\Portfolio Program Publising - Leo.exe
+C:\Users\Leodays\Desktop\Dev\메세지 박스 예제\메세지 박스 예제\obj\Debug\Portfolio Program Publising - Leo.pdb
