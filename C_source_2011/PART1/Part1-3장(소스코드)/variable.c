@@ -10,110 +10,195 @@
 1-9 sum = 1+1+2+3+4+8+13... 10항 까지의 합계를 구하는 프로그램을 작성한다. (피보나치 수열) 
 */
 
-//1 - 9 sum = 1 + 1 + 2 + 3 + 5 + 8 + 13... 10항 까지의 합계를 구하는 프로그램을 작성한다. (피보나치 수열)
+// 1-10 sum =  (1 * 77) + (2 * 76) + (3 * 75) ... (77*1)
+#include <stdio.h>
+int main(void)
+{
+	//p = a + b
+	int cnt;
+	int a = 1, b = 77, p, sum = a * b;
+
+	printf("---------------초기값------------------- \n");
+	printf("a = %d . b = %d . sum = %d \n", a, b, sum);
+	printf("------------------------------ \n");
+
+	for (cnt = 1; cnt < 78; cnt++) {
+		p = a * b;
+		sum = sum + p;
+		printf("cnt = %d. a = %d. b = %d. p = %d. sum = %d. \n", cnt, a, b, p, sum);
+		b = b - 1; // 수의 법칙을 찾아서 해당 값을 계산해줌.
+		a = a + 1; // 계산된 값이 b항이 되어야한다.
+
+	}
+	printf("---------------------------------------- \n");
+	printf("cnt = %d. p = %d. sum = %d. \n", cnt, p, sum);
+	system("pause");
+	return 0;
+}
+
+
+
+
+//1-9 sum = 1 + 1 + 2 + 3 + 5 + 8 + 13... 10항 까지의 합계를 구하는 프로그램을 작성한다. (피보나치 수열)
 /* #include <stdio.h>
 int main(void)
 {
+	//p = a + b
+	int cnt;
+	int a = 1, b = 1, p, sum = a + b;
 
+	printf("---------------초기값------------------- \n");
+	printf("a = %d . b = %d . sum = %d \n", a, b, sum);
+	printf("------------------------------ \n");
+
+	for (cnt = 3; cnt < 11; cnt++) {
+		p = a + b;
+		sum = sum + p;
+		printf("cnt = %d. p = %d. sum = %d. \n", cnt, p, sum);
+		a = b; // 
+		b = p; // 계산된 값이 b항이 되어야한다.
+
+	}
+	printf("---------------------------------------- \n");
+	printf("cnt = %d. p = %d. sum = %d. \n", cnt, p, sum);
 	system("pause");
 	return 0;
 } */
+
+//1-8-1 sum = 1! + 2! + 3! + 4! + ... 10항 까지의 합계를 구하는 프로그램을 작성한다. (팩토리얼)
+/* #include <stdio.h>
+int main(void)
+{
+	int cnt;
+	int f = 1, i = 0, sum = 0;
+
+	for (cnt = 1; cnt < 11; cnt++)
+	{
+		i = i + 1;
+		f = f * i;
+		sum = sum + f;
+		printf("cnt = %d. i = %d. f = %d. sum = %d. \n", cnt, i, f, sum);
+	}
+	printf("------------------------------ \n");
+	printf("cnt = %d. j = %d. i = %d. sum = %d. \n", cnt, i, f, sum);// for문에서 cnt의 값을 증가한후 조건을 비교한후 빠져나옴.
+	system("pause");
+	return 0;
+ */
 
 //1-8 sum = 1+(1*2)+(1*2*3)+(1*2*3*4)+... 10항 까지의 합계를 구하는 프로그램을 작성한다. (팩토리얼)
 /* #include <stdio.h>
 int main(void)
 {
-	int i, j;
-	int k = 1;
-	int total = 0;
+	int cnt;
+	int j = 1, i = 1, sum = 1;
 
-	for (i = 1; i <= 10; i++) {
-		for (j = 1; j <= i; j++) {
-			k = k * j;
-		}
-		total = total + k;
-		printf("i = %d. j = %d. k = %d. \n", i, j, k);
-		k = 1;
-	}
-	printf("--------------------------- \n");
-	printf("10의 팩토리얼은 %d \n", total);
-	system("pause");
-	return 0;
-} */
-
-//1-7 sum = 1+(1+2)+(1+2+3)+(1+2+3+4)+... 10항 까지의 합계를 구하는 프로그램을 작성한다. (팩토리얼)
-/* #include <stdio.h>
-int main(void)
-{
-	int i, j, k = 0;
-	int total = 0;
-
-	for (i = 1; i <= 10; i++){
-		for (j = 1; j <= i; j++){
-			k = k + j;
-		}
-		total = total + k;
-		printf("i = %d. j = %d. k = %d. \n", i, j, k);
-		k = 0;
-	}
-	printf("--------------------------- \n");
-	printf("10항까지의 계는 %d \n", total);
-	system("pause");
-	return 0;
-} */
-
-//1-6 sum = 2+3+5+8+12... 10항 까지의 합계를 구하는 프로그램을 작성한다.
-/* #include <stdio.h>
-int main(void)
-{
-	int cnt, j = 1+1; //j 의 초기값은 2
-	int i = 0, sum = 0;
-
-	for (cnt = 0; cnt < 10; cnt++)
+	for (cnt = 1; cnt < 10; cnt++)
 	{
-		j = j + cnt;
-		sum = sum + j;
-		printf("cnt = %d. i = %d. sum = %d. \n", cnt, j, sum);
-
+		j = j + 1;
+		i = i * j;
+		sum = sum + i;
+		printf("cnt = %d. j = %d. i = %d. sum = %d. \n", cnt, j, i, sum);
 	}
 	printf("------------------------------ \n");
-	printf("cnt = %d. i = %d. sum = %d. \n", cnt, j, sum);	// for문에서 cnt의 값을 증가한후 조건을 비교한후 빠져나옴.
+	printf("cnt = %d. j = %d. i = %d. sum = %d. \n", cnt, j, i, sum);// for문에서 cnt의 값을 증가한후 조건을 비교한후 빠져나옴.
 	system("pause");
 	return 0;
 } */
 
-//1-5 sum = 1+2+4+7+11... 10항 까지의 합계를 구하는 프로그램을 작성한다.
-/* #include <stdio.h>
-int main(void)
-{
-	int cnt, j = 1;  //j 의 초기값은 1
-	int i = 0, sum = 0;
-
-	for (cnt = 0; cnt < 10; cnt++)
-	{
-		j = j + cnt;
-		sum = sum + j;
-		printf("cnt = %d. i = %d. sum = %d. \n", cnt, j, sum);
-
-	}
-	printf("------------------------------ \n");
-	printf("cnt = %d. i = %d. sum = %d. \n", cnt, j, sum);	// for문에서 cnt의 값을 증가한후 조건을 비교한후 빠져나옴.
-	system("pause");
-	return 0;
-} */
-
-//1-4 sum = 1+3+5+7... (?) 를 10항 까지의 합계 구하는 프로그램을 작성한다.
+//1-7 sum = 1+(1+2)+(1+2+3)+(1+2+3+4)+... 10항 까지의 합계를 구하는 프로그램을 작성한다. (개차수열)
 /* #include <stdio.h>
 int main(void)
 {
 	int cnt;
-	int i = 1, sum = 0;
+	int j = 1, i = 1, sum = 1;
 
 	for (cnt = 1; cnt < 11; cnt++)
 	{
+		j = j + 1;
+		i = i + j;
 		sum = sum + i;
-		printf("cnt = %d. i = %d. sum = %d. \n", cnt, i, sum);
+		printf("cnt = %d. j = %d. i = %d. sum = %d. \n", cnt, j, i, sum);
+	}
+	printf("------------------------------ \n");
+	printf("cnt = %d. j = %d. i = %d. sum = %d. \n", cnt, j, i, sum);// for문에서 cnt의 값을 증가한후 조건을 비교한후 빠져나옴.
+	system("pause");
+	return 0;
+} */
+
+//1-7-1 sum = 1+3+6+10+15+21... 10항 까지의 합계를 구하는 프로그램을 작성한다. (개차수열 문제)
+/* #include <stdio.h>
+int main(void)
+{
+	int cnt;
+	int j = 1, i = 1, sum = 1;
+
+	for (cnt = 1; cnt < 11; cnt++)
+	{
+		j = j + 1;
+		i = i + j;
+		sum = sum + i;
+		printf("cnt = %d. j = %d. i = %d. sum = %d. \n", cnt, j, i, sum);
+	}
+		printf("------------------------------ \n");
+		printf("cnt = %d. j = %d. i = %d. sum = %d. \n", cnt, j, i, sum);// for문에서 cnt의 값을 증가한후 조건을 비교한후 빠져나옴.
+		system("pause");
+		return 0;
+} */
+
+//1-6 sum = 2+3+5+8+12... 10항 까지의 합계를 구하는 프로그램을 작성한다. (개차수열 문제)
+/* #include <stdio.h>
+int main(void)
+{
+	int cnt;
+	int j = 0, i = 2, sum = 2;
+
+	for (cnt = 1; cnt < 10; cnt++)
+	{
+		j = j + 1;
+		i = i + j;
+		sum = sum + j;
+		printf("cnt = %d. j = %d. i = %d. sum = %d. \n", cnt, j, i, sum);
+
+	}
+	printf("------------------------------ \n");
+	printf("cnt = %d. j = %d. i = %d. sum = %d. \n", cnt, j, i, sum);// for문에서 cnt의 값을 증가한후 조건을 비교한후 빠져나옴.
+	system("pause");
+	return 0;
+} */
+
+//1-5 sum = 1+2+4+7+11... 10항 까지의 합계를 구하는 프로그램을 작성한다. (개차수열 문제)
+/* #include <stdio.h>
+int main(void)
+{
+	int cnt;
+	int j = 0, i = 1, sum = 1;
+
+	for (cnt = 1; cnt < 10; cnt++)
+	{
+		j = j + 1;
+		i = i + j;
+		sum = sum + i;
+		printf("cnt = %d. j = %d. i = %d. sum = %d. \n", cnt, j, i, sum);
+
+	}
+	printf("------------------------------ \n");
+	printf("cnt = %d. j = %d. i = %d. sum = %d. \n", cnt, j, i, sum);	// for문에서 cnt의 값을 증가한후 조건을 비교한후 빠져나옴.
+	system("pause");
+	return 0;
+} */
+
+//1-4 sum = 1+3+5+7... (?) 를 10항 까지의 합계 구하는 프로그램을 작성한다. (홀수 덧샘)
+/* #include <stdio.h>
+int main(void)
+{
+	int cnt;
+	int i = -1, sum = 0;
+
+	for (cnt = 1; cnt < 11; cnt++)
+	{
 		i = i + 2;
+		sum = sum + i; //초기값이 들어오는 것을 신경써서 프로그래밍하라.
+		printf("cnt = %d. i = %d. sum = %d. \n", cnt, i, sum);
 	}
 	printf("------------------------------ \n");
 	printf("cnt = %d. i = %d. sum = %d. \n", cnt, i, sum);	// for문에서 cnt의 값을 증가한후 조건을 비교한후 빠져나옴.
@@ -121,7 +206,7 @@ int main(void)
 	return 0;
 } */
 
-//1-3 sum = 2+4+6+... (20) 10항 까지의 합계 구하기 프로그램을 작성한다.
+//1-3 sum = 2+4+6+... (20) 10항 까지의 합계 구하기 프로그램을 작성한다. (짝수 덧셈)
 /* #include <stdio.h>
 int main(void)
 {
@@ -159,7 +244,7 @@ int main(void)
 	return 0;
 } */
 
-//1-1 sum = 7 +7+7+7+... 7  : 10항 까지의 합계
+//1-1 sum = 7+7+7+7+... 7  : 10항 까지의 합계
 /* #include <stdio.h>
 int main(void)
 {
@@ -168,7 +253,7 @@ int main(void)
 
 	for (cnt = 1; cnt < 11; cnt++)
 	{
-		sum = sum + 7;
+		sum = sum + 7; // 누적계산
 		printf("cnt = %d. sum = %d. \n", cnt, sum);
 	}
 	printf("------------------------------ \n");
