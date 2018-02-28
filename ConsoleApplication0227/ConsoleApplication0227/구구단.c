@@ -1,6 +1,7 @@
+
 // 4. ㄹ 자 모양 출력.
-// 몫과 나머지
-// 나머지 = i - i / 2 * 2. 몫 = i / 2.
+// 몫과 나머지 : 나머지 = i - i / 2 * 2. 몫 = i / 2.
+
 /*
 #include<stdio.h>
 #define NUM 5 //상수 정의. 상수의 값만큼 조건식 길이로 사용될수 있다.[C의 특성.]
@@ -351,7 +352,6 @@ int main(void) {
 	system("pause");
 	return 0;
 } */
-
 
 //구구단
 /* #include<stdio.h>
