@@ -1,3 +1,3 @@
 ﻿  variable.c
-c:\users\leodays\desktop\2018_c\2018-c-example-coding\c_source_2011\part1\part1-3장(소스코드)\variable.c(33): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  ConsoleApplication0224.vcxproj -> C:\Users\Leodays\Desktop\2018_C\2018-C-Example-Coding\ConsoleApplication0224\Debug\ConsoleApplication0224.exe
+c:\users\leos\desktop\c++\2018-c-example-coding\c_source_2011\part1\part1-3장(소스코드)\variable.c(63): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  ConsoleApplication0224.vcxproj -> C:\Users\Leos\Desktop\C++\2018-C-Example-Coding\ConsoleApplication0224\Debug\ConsoleApplication0224.exe

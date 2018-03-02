@@ -11,6 +11,7 @@
 */
 
 // 1-10 sum =  (1 * 77) + (2 * 76) + (3 * 75) ... (77*1)
+/*
 #include <stdio.h>
 int main(void)
 {
@@ -32,21 +33,24 @@ int main(void)
 	printf("cnt = %d. a = %d. b = %d. p = %d. sum = %d. \n", cnt, i, j, m, sum);
 	system("pause");
 	return 0;
-}
+} */
 
 //1-9 sum = 1 + 1 + 2 + 3 + 5 + 8 + 13... 10항 까지의 합계를 구하는 프로그램을 작성한다. (피보나치 수열)
-/* #include <stdio.h>
+#include <stdio.h>
 int main(void)
 {
 	//p = a + b
-	int cnt;
+	int cnt, cnti;
 	int a = 1, b = 1, p, sum = a + b;
+
+	printf("피보나치 수열을 구합니다. 몇 항까지 구할지를 입력해주세요. \n");
+	scanf_s("%d", &cnti);
 
 	printf("---------------초기값------------------- \n");
 	printf("a = %d . b = %d . sum = %d \n", a, b, sum);
 	printf("------------------------------ \n");
 
-	for (cnt = 3; cnt < 11; cnt++) {
+	for (cnt = 3; cnt < cnti; cnt++) {
 		p = a + b;
 		sum = sum + p;
 		printf("cnt = %d. p = %d. sum = %d. \n", cnt, p, sum);
@@ -58,7 +62,7 @@ int main(void)
 	printf("cnt = %d. p = %d. sum = %d. \n", cnt, p, sum);
 	system("pause");
 	return 0;
-} */
+} 
 
 //1-8-1 sum = 1! + 2! + 3! + 4! + ... 10항 까지의 합계를 구하는 프로그램을 작성한다. (팩토리얼)
 /* #include <stdio.h>
