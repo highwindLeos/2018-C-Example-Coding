@@ -1,4 +1,11 @@
 ﻿  성적처리.c
+<<<<<<< HEAD
 c:\users\leos\desktop\c++\2018-c-example-coding\consoleapplication0228\consoleapplication0228\성적처리.c(155): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
 c:\users\leos\desktop\c++\2018-c-example-coding\consoleapplication0228\consoleapplication0228\성적처리.c(4): warning C4101: 'io' :참조되지 않은 지역 변수입니다.
   ConsoleApplication0228.vcxproj -> C:\Users\Leos\Desktop\C++\2018-C-Example-Coding\ConsoleApplication0228\Debug\ConsoleApplication0228.exe
+=======
+c:\users\leodays\desktop\2018_c\2018-c-example-coding\consoleapplication0228\consoleapplication0228\성적처리.c(151): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\leodays\desktop\2018_c\2018-c-example-coding\consoleapplication0228\consoleapplication0228\성적처리.c(4): warning C4101: 'io' :참조되지 않은 지역 변수입니다.
+LINK : warning LNK4076: 'C:\Users\Leodays\Desktop\2018_C\2018-C-Example-Coding\ConsoleApplication0228\Debug\ConsoleApplication0228.ilk' 증분 상태 파일이 잘못되었습니다(삭제됨). 비증분 링크합니다.
+  ConsoleApplication0228.vcxproj -> C:\Users\Leodays\Desktop\2018_C\2018-C-Example-Coding\ConsoleApplication0228\Debug\ConsoleApplication0228.exe
+>>>>>>> master
